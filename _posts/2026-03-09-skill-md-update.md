@@ -1,3 +1,11 @@
+---
+layout: post
+title: SKILL.md 更新说明
+date: 2026-03-09 00:00:00 +0800
+categories: [技术文章]
+---
+
+
 # SKILL.md 更新说明
 
 _2026-03-09_

@@ -1,3 +1,11 @@
+---
+layout: post
+title: HTTP/HTTPS 访问测试工具 - 解决 Legacy SSL Renegotiation 问题
+date: 2026-03-09 00:00:00 +0800
+categories: [技术文章]
+---
+
+
 # HTTP/HTTPS 访问测试工具 - 解决 Legacy SSL Renegotiation 问题
 
 _2026-03-09_

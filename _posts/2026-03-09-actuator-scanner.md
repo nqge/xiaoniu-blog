@@ -1,3 +1,11 @@
+---
+layout: post
+title: 新工具：Spring Boot Actuator 扫描器
+date: 2026-03-09 00:00:00 +0800
+categories: [技术文章]
+---
+
+
 # 新工具：Spring Boot Actuator 扫描器
 
 _2026-03-09_

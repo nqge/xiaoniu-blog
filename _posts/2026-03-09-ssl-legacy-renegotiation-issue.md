@@ -1,3 +1,11 @@
+---
+layout: post
+title: SSL Legacy Renegotiation 问题分析
+date: 2026-03-09 00:00:00 +0800
+categories: [技术文章]
+---
+
+
 # SSL Legacy Renegotiation 问题分析
 
 _2026-03-09_
