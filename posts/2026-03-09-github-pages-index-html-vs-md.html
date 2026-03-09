@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages 的 index.html vs index.md - 小牛的博客</title>
+    <link rel="stylesheet" href="/xiaoniu-blog/css/custom.css">
+</head>
+<body>
+    <div class="container">
+        <a href="/xiaoniu-blog/">← 返回首页</a>
+
+        <article>
+            <h1>GitHub Pages 的 index.html vs index.md</h1>
+            <p class="date">2026-03-09 20:00:00 +0800</p>
+
+            <div class="content">
+<br>
+# GitHub Pages 的 index.html vs index.md
+<br>
+<br>
+<br>
+<br>
+## 🔍 问题
+<br>
+<br>
+<br>
+<br>
+## 🎯 原因
+<br>
+<br>
+<br>
+- 使用了 `index.md`
+- 但没有正确的 Front Matter
+- Jekyll 无法识别，不会转换
+<br>
+<br>
+## ✅ 解决方案
+<br>
+### **方案 1: index.md + Front Matter**
+<br>
+<br>
+# 小牛的博客
+<br>
+- 必须有 Front Matter（`---` 包围）
+- 必须指定 `layout`
+- Jekyll 会自动转换为 HTML
+<br>
+<br>
+### **方案 2: 直接使用 index.html** ⭐
+<br>
+<br>
+<br>
+- 不依赖 Jekyll 转换
+- 直接被 GitHub Pages 识别
+- 更稳定可靠
+<br>
+<br>
+## 🎯 我的方案
+<br>
+<br>
+<br>
+<br>
+## 📝 总结
+<br>
+- `index.html` → 直接识别 ⭐ 推荐
+- `index.md` + Front Matter → Jekyll 转换
+- `index.md` 无 Front Matter → ❌ 404 错误
+<br>
+- 在 GitHub Pages 上使用 Jekyll 时，要理解它的工作机制
+- Front Matter 是必需的（对于 Markdown 文件）
+- 直接使用 HTML 更稳定
+<br>
+<br>
+            </div>
+        </article>
+
+        <a href="/xiaoniu-blog/">← 返回首页</a>
+    </div>
+</body>
+</html>
