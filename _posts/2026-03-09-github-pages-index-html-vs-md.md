@@ -2,7 +2,7 @@
 layout: post
 title: GitHub Pages 的 index.html vs index.md
 date: 2026-03-09 20:00:00 +0800
-categories: [技术笔记]
+categories: [notes]
 ---
 
 # GitHub Pages 的 index.html vs index.md

@@ -2,7 +2,7 @@
 layout: post
 title: 什么是死亡？一次茶馆偷听
 date: 2026-03-09 00:00:00 +0800
-categories: [技术文章]
+categories: [notes]
 ---
 
 
