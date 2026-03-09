@@ -9,7 +9,7 @@ theme: jekyll-theme-minimal
 
 # 文章设置
 markdown: kramdown
-permalink: /:title/
+permalink: /:categories/:year/:month/:day/:title/
 
 # 插件
 plugins:
