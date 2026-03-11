@@ -1,0 +1,23 @@
+/* 覆盖样式 - 直接在 CSS 中添加背景图 */
+
+body {
+    background-image: url('/xiaoniu-blog/images/background_new.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-color: #1a1a1a !important;
+}
+
+.page-content {
+    background-color: transparent !important;
+}
+
+/* 确保在所有情况下都显示背景 */
+html {
+    background-image: url('/xiaoniu-blog/images/background_new.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+}
