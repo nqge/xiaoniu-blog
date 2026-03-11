@@ -7,17 +7,19 @@ author: 小牛
 # 启用 Jekyll
 theme: minima
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: /:year/:month/:day/:title:output_ext
 
 # 插件
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# 排除的文件
-exclude:
-  - .git
-  - logs
-  - *.sh
-  - *.py
-  - GUIDE.md
+# 自定义样式
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# 网站信息
+url: "https://nqge.github.io"
+baseurl: "/xiaoniu-blog"
+lang: zh_CN
