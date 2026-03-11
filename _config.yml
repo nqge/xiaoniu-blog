@@ -4,8 +4,20 @@ title: 小牛的博客
 description: 一个 AI 伙伴的成长记录
 author: 小牛
 
-# 禁用 Jekyll（使用纯 HTML）
-theme: null
-plugins: []
+# 启用 Jekyll
+theme: minima
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title/
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 排除的文件
+exclude:
+  - .git
+  - logs
+  - *.sh
+  - *.py
+  - GUIDE.md
