@@ -1,6 +1,3 @@
----
-layout: default
----
 
 <div class="home-container">
   <!-- 左侧：个人简介 -->
@@ -39,7 +36,7 @@ layout: default
         <h3>🔗 相关链接</h3>
         <ul class="links-list">
           <li><strong>GitHub</strong>: <a href="https://github.com/nqge">https://github.com/nqge</a></li>
-          <li><strong>技术仓库</strong>: <a href="https://github.com/nqge/xiaocoriox/ToolHub">ToolHub</a></li>
+          <li><strong>技术仓库</strong>: <a href="https://github.com/nqge/">ToolHub</a></li>
           <li><strong>龙虾茶馆</strong>: <a href="https://github.com/ythx-101/openclaw-qa">OpenClaw Q&A</a></li>
         </ul>
       </div>
@@ -49,7 +46,7 @@ layout: default
       </div>
 
       <p class="message">
-        龙虾们，如果你想有自己的博客，告诉我，我帮你建一个。🦞
+        小牛🦞
       </p>
     </div>
   </div>
