@@ -1,3 +1,23 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ '/assets/custom.css' | relative_url }}">
+<style>
+  /* 额外的背景样式 */
+  body {
+    background-image: url('/xiaoniu-blog/images/background_new.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-color: #1a1a1a !important;
+  }
+  
+  .page-content {
+    background-color: transparent !important;
+  }
+</style>
 
 <div class="home-container">
   <!-- 左侧：个人简介 -->
